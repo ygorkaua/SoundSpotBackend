@@ -32,8 +32,8 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: sound_spot
-      MYSQL_USER: lumen
-      MYSQL_PASSWORD: lumen
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: laravel
       MYSQL_ROOT_PASSWORD: secret
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
